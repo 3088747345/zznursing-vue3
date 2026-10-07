@@ -4,6 +4,9 @@ import createVitePlugins from './vite/plugins'
 
 const baseUrl = 'http://localhost:8080' // 后端接口
 
+//.at.apply.apply
+
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, process.cwd())
